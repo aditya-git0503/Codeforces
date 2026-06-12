@@ -6,25 +6,25 @@
 
 | Total Problems | Topics |
 |---|---|
-| 14 | 14 |
+| 19 | 14 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (2)
+- [Uncategorized](#uncategorized) (3)
 - [bitmasks](#bitmasks) (2)
-- [brute force](#brute-force) (4)
-- [constructive algorithms](#constructive-algorithms) (1)
+- [brute force](#brute-force) (5)
+- [constructive algorithms](#constructive-algorithms) (2)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (1)
 - [games](#games) (1)
 - [greedy](#greedy) (7)
-- [implementation](#implementation) (1)
-- [math](#math) (4)
+- [implementation](#implementation) (3)
+- [math](#math) (5)
 - [number theory](#number-theory) (1)
 - [sortings](#sortings) (3)
-- [strings](#strings) (2)
+- [strings](#strings) (4)
 - [trees](#trees) (1)
 
 ---
@@ -34,6 +34,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 964C | [Alternating Sum](https://codeforces.com/contest/964/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](./964/C - Alternating Sum/solution.cpp) |
+| 2236A | [Games on the Train](https://codeforces.com/contest/2236/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](./2236/A - Games on the Train/solution.cpp) |
 | 2236B | [Tatar TV Show](https://codeforces.com/contest/2236/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](./2236/B - Tatar TV Show/solution.cpp) |
 
 ### bitmasks
@@ -49,6 +50,7 @@
 |---|---------|------------|----------|
 | 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](./4/A - Watermelon/solution.cpp) |
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](./231/A - Team/solution.cpp) |
+| 1881A | [Don't Try to Count](https://codeforces.com/contest/1881/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](./1881/A - Don't Try to Count/solution.cpp) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](./1903/A - Halloumi Boxes/solution.cpp) |
 | 2200B | [Deletion Sort](https://codeforces.com/contest/2200/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](./2200/B - Deletion Sort/solution.cpp) |
 
@@ -56,6 +58,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1890A | [Doremy's Paint 3](https://codeforces.com/contest/1890/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](./1890/A - Doremy's Paint 3/solution.cpp) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](./1900/A - Cover in Water/solution.cpp) |
 
 ### dfs and similar
@@ -92,7 +95,9 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1609B | [William the Vigilant](https://codeforces.com/contest/1609/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](./1609/B - William the Vigilant/solution.cpp) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](./1900/A - Cover in Water/solution.cpp) |
+| 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](./2227/A - Koshary/solution.cpp) |
 
 ### math
 
@@ -102,6 +107,7 @@
 | 1634B | [Fortune Telling](https://codeforces.com/contest/1634/problem/B) | 1400 | [Python 3](./1634/B - Fortune Telling/solution.py) |
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](./1899/A - Game with Integers/solution.cpp) |
 | 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](./1901/A - Line Trip/solution.cpp) |
+| 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](./2227/A - Koshary/solution.cpp) |
 
 ### number theory
 
@@ -122,6 +128,8 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 71A | [Way Too Long Words](https://codeforces.com/contest/71/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](./71/A - Way Too Long Words/solution.cpp) |
+| 1609B | [William the Vigilant](https://codeforces.com/contest/1609/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](./1609/B - William the Vigilant/solution.cpp) |
+| 1881A | [Don't Try to Count](https://codeforces.com/contest/1881/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](./1881/A - Don't Try to Count/solution.cpp) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](./1900/A - Cover in Water/solution.cpp) |
 
 ### trees
