@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 13 | 14 |
+| 14 | 14 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (1)
+- [Uncategorized](#uncategorized) (2)
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (4)
 - [constructive algorithms](#constructive-algorithms) (1)
@@ -34,6 +34,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 964C | [Alternating Sum](https://codeforces.com/contest/964/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](./964/C - Alternating Sum/solution.cpp) |
+| 2236B | [Tatar TV Show](https://codeforces.com/contest/2236/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](./2236/B - Tatar TV Show/solution.cpp) |
 
 ### bitmasks
 
