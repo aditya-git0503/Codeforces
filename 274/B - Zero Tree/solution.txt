@@ -1,0 +1,75 @@
+package main
+ 
+import (
+	"bufio"
+	"fmt"
+	"io"
+	"os"
+)
+ 
+func CF274B(_r io.Reader, _w io.Writer) {
+	in := bufio.NewReader(_r)
+ 
+	min64 := func(a, b int64) int64 {
+		if a < b {
+			return a
+		}
+		return b
+	}
+	max64 := func(a, b int64) int64 {
+		if a > b {
+			return a
+		}
+		return b
+	}
+ 
+	var n int
+	if _, err := fmt.Fscan(in, &n); err != nil {
+		return
+	}
+	g := make([][]int, n)
+	// sentinel parent for root so leaf-check works uniformly
+	g[0] = append(g[0], -1)
+ 
+	for i := 1; i < n; i++ {
+		var v, w int
+		fmt.Fscan(in, &v, &w)
+		v--
+		w--
+		g[v] = append(g[v], w)
+		g[w] = append(g[w], v)
+	}
+ 
+	a := make([]int64, n)
+	for i := 0; i < n; i++ {
+		fmt.Fscan(in, &a[i])
+	}
+ 
+	var dfs func(v, p int) (mi, mx int64)
+	dfs = func(v, p int) (mi, mx int64) {
+		cur := a[v]
+		if len(g[v]) == 1 { // leaf (root has sentinel)
+			return min64(0, cur), max64(0, cur)
+		}
+		for _, nxt := range g[v] {
+			if nxt == p {
+				continue
+			}
+			cmi, cmx := dfs(nxt, v)
+			mi = min64(mi, cmi)
+			mx = max64(mx, cmx)
+		}
+		cur -= mi + mx
+		if cur < 0 {
+			mi += cur
+		} else {
+			mx += cur
+		}
+		return
+	}
+ 
+	mi, mx := dfs(0, -1)
+	fmt.Fprint(_w, mx-mi)
+}
+ 
+func main() { CF274B(os.Stdin, os.Stdout) }
